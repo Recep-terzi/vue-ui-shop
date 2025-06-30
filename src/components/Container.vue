@@ -1,9 +1,10 @@
 <script setup lang="ts">
-import { RouterLink, RouterView } from 'vue-router'
 </script>
 
 <template>
-  <RouterView />
+    <div class="px-[80px] w-full">
+        <slot />
+    </div>
 </template>
 
 <style scoped></style>
