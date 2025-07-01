@@ -6,6 +6,7 @@ import WhyChoosingUs from '@/components/WhyChoosingUs.vue';
 import { onMounted, ref } from 'vue'
 import ScrollReveal from 'scrollreveal'
 import LeftRightSection from '@/components/LeftRightSection.vue';
+import Footer from '@/components/Footer.vue';
 
 const box = ref(null)
 
@@ -52,4 +53,5 @@ onMounted(() => {
     <WhyChoosingUs />
     <ProductSection />
     <LeftRightSection />
+    <Footer />
 </template>
